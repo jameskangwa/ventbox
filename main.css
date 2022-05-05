@@ -1,0 +1,74 @@
+.container{
+    max-width:800px;
+    min-width:298px; 
+    margin:0 auto;
+}
+#about-us{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:0.9rem;
+}
+#about-us a{
+   text-decoration:none;
+   color:rgb(82, 82, 82);
+}
+.in-app{
+    display:inline-block;
+    color:gray;
+    font-size:0.7rem;
+}
+ .button1{
+     color:white;
+     background:orangered;
+     border:none;
+     border-radius:2px;
+     padding:0.8em;
+ }
+.heading{
+    float:right; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.hech1{
+    display:inline-block;
+    margin:0 auto ;
+}
+.head-boy{
+    /*border:1px solid black;*/
+    margin:0.4em 0;
+    position:sticky;
+    top:0px;
+    background:white;
+    padding-top:5px;
+}
+.gra img{
+    display:block;
+    max-width:100%;
+}
+.song img{
+    width:3.1em;
+    height:3.1em;
+    border-radius:2px;
+    
+}
+.song-title{
+    font-size:0.8rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin:0 0;
+}
+.artist{
+    font-size:0.6rem;
+    color:rgb(66, 66, 66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0 0;
+}
+.song{
+    display:flex;
+    gap:8px;
+    margin:8px auto;
+}
+.footlet{
+    background:rgb(36, 36, 36);
+    color:white;
+    padding:0.8em;
+    text-align:center;
+    font-family: monospace;
+}
